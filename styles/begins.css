@@ -5,22 +5,57 @@
     font-optical-sizing: auto;
     font-weight: 100 900;
     font-style: normal;
-  }
-  
-  
-  /* bannarstyles */
-  .banner{
-      display: flex;
-      justify-content: space-around;
-     
-  }
-  
-  
-  .btn-primary{
-      background-color: #0D1321;
-      color: #FFFFFF;
-      font-weight: semibold;
-      font-size:
-      padding: 21px 24 px;
-      border-radius: 8px;
-  }  
+}
+
+/* header */
+.header{
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*banner styles*/
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1440px;
+
+    
+}
+
+.bannar-title{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.bannar-descripti{
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+
+.banner-btn-primary{
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #0D1321;
+    color: #FFFFFF;
+    padding: 24px 21px;
+    border-radius: 8px;
+    m
+}
+
+.div{
+    width: 998px;
+    margin: 0px auto;
+
+}
+.button{
+    font-weight: 244px;
+    font-size: 24px 21px;
+    margin: 0px;
+
+    
+}
+
