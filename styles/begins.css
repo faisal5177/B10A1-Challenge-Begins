@@ -6,14 +6,16 @@
     font-weight: 100 900;
     font-style: normal;
     width: 1440px;
-    margin: ;
+    box-shadow: 0px 4px 4px 0px #000000;
 }
 
 /* header */
 .header{
     background-image: url('../images/Hero-bg.png');
+    
 
 }
+
 
 /*banner styles*/
 .banner{
@@ -21,6 +23,8 @@
     margin: auto;
     justify-content: space-around;
     border-radius: 998px;
+    
+    
 }
 
 /*banner-title styles*/
@@ -36,6 +40,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
+   
 }
 
 /*banner-description styles*/
@@ -47,6 +52,7 @@
     align-items: center;
     text-align: center;
     margin-top: 24px;
+ 
     
 
 }
@@ -68,16 +74,19 @@
     margin-right: auto;
     margin-top: 24px;
     
+    
 }
 
 /*section styles*/
 .section{
     padding: 97px 80px 97px 80px;
-}
+    box-shadow: 0px 4px 4px 0px #000000;
+}   
 
 /*div styles*/
 .div{
     margin-top: 32px;
+    box-shadow: 0px 4px 4px 0px #000000;
 }
 
 /*section-title styles*/
@@ -94,6 +103,8 @@
     margin-top: 80px;
     padding-left: 97px;
     padding-right: 97px;
+    
+    
 }
 
 /*section-description styles*/
@@ -108,6 +119,7 @@
     border-radius: 946px;
     padding-left: 97px;
     padding-right: 97px;
+    
 }
 
 /*div ui li styles*/
@@ -115,6 +127,7 @@ div ul li{
     list-style: none;
     text-align: center;
     text-align: left;
+    
 }
 
 
@@ -124,6 +137,7 @@ div ul li{
     font-size: 24px;
     width: 477px;
     color: #0D1321;
+    
 }
 
 /*div-section-description styles*/
@@ -132,6 +146,7 @@ div ul li{
     font-size: 16px;
     width: 468px;
     color: #0D1321;
+    
 }
 
 /*section-button styles*/
@@ -141,6 +156,7 @@ padding: 20px 12px;
 color: #0D1321;
 margin-top: 32px;
 
+
 }
 
 /*section-img styles*/
@@ -148,16 +164,67 @@ margin-top: 32px;
     width: 240px;
     height: 240px;
     background-color: #0D1321;
-    color: #B7BCFF;
-    color: #070159;
+    color: #FFFFFF;
+    color: #000072;
+   
 }      
 div ul{
     display: flex;
    justify-content: space-around;
    align-items: center;
    margin: 48px 48px 48px 48px;
+   box-shadow: 0px 4px 4px 0px #000000;
+  
 }
 
 div ul li p{
     margin-top: 16px;
+    
+}
+
+/*experience-title styles*/
+.experience-title{
+    display: flex;
+    width: 825px;
+    font-weight: 800px;
+    font-size: 32px;
+    color: #0D1321;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*experience-description styles*/
+.experience-description{
+    display: flex;
+    width: 852px;
+    font-weight: 400xp;
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*experience-video styles*/
+.experience-video{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 32px 32px;
+    box-shadow: #000000;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    width: 1140px;
+    height: 614px;
+    padding: 32px 32px 32px 32px;
+    box-shadow: 0px 4px 4px 0px #000000;
 }
