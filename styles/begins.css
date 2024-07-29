@@ -243,7 +243,7 @@ div ul li p{
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 48px; 
+    margin-top: 48px;
 }
 
 .section-skills-title{
@@ -266,6 +266,19 @@ div ul li p{
 }
 
 .html{
-    background-color: #FF4C1E;
+    background-color: #FF651E 5%;
+    color: #0D1321;;
     box-shadow: 0px 4px 4px 0px #FF4C1E;
+}
+.css{
+    background-color: #004CE8 5%;
+    color: #0D1321;
+    box-shadow: 0px 4px 4px 0px #004CE8;
+}
+
+.js{
+    background-color: #FFDF00 5%;
+    color: #0D1321;
+    box-shadow: 0px 4px 4px 0px #FFDF00;
+    
 }
