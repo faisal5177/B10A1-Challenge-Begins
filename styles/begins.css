@@ -81,6 +81,7 @@
 .section{
     padding: 97px 80px 97px 80px;
     box-shadow: 0px 4px 4px 0px #000000;
+    margin-top: 81px;
 }   
 
 /*div styles*/
@@ -191,7 +192,7 @@ div ul li p{
     color: #0D1321;
     text-align: center;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
     
@@ -227,4 +228,44 @@ div ul li p{
     height: 614px;
     padding: 32px 32px 32px 32px;
     box-shadow: 0px 4px 4px 0px #000000;
+}
+
+/*section skill styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills{
+    padding: 40px;
+    width: 364px;
+    box-shadow: 0px 4px 4px 0px #000000;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px; 
+}
+
+.section-skills-title{
+    display: flex;
+    font-weight: 800px;
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-skills-description{
+    display: flex;
+    font-size: 16px;
+    font-weight: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.html{
+    background-color: #FF4C1E;
+    box-shadow: 0px 4px 4px 0px #FF4C1E;
 }
